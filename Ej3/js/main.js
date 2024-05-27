@@ -32,9 +32,9 @@ d3.json("data/ages.json").then((data)=> {
             .attr("r", (d) => { return d; })
             .attr("fill",(d) => { 
                 if(d > 10){
-                    return ("red");
+                    return ("Blue");
                 } else {
-                    return ("green");
+                    return ("Red");
                 }
             });
 }).catch((error) => {
